@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ Routes
-app.use("/api/grocery", require("./routes/groceryRoutes"));
+app.use("/api/grocery", require("./routes/GroceryRoutes"));
 app.use("/api/user-profile", require("./routes/userProfileRoutes"));
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/expenses", require("./routes/expenseRoutes")); // add this if you have Expense routes
