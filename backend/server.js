@@ -13,7 +13,10 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ Middleware
 app.use(cors({
-  origin: "https://smart-grocery-app-nu.vercel.app",
+  origin: [
+    "https://smart-grocery-app-nu.vercel.app",
+    "https://smart-grocery-jr9o17xgm-shubhannaik-droids-projects.vercel.app"
+  ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
