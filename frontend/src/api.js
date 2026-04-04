@@ -1,8 +1,9 @@
 // src/api.js
+// src/api.js
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // backend base URL
+  baseURL: "https://smart-grocery-app-slen.onrender.com/api",
 });
 
 export default API;
