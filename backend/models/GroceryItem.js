@@ -5,8 +5,7 @@ const GroceryItemSchema = new mongoose.Schema({
   name: { type: String, required: true, trim: true },
   quantity: { type: Number, default: 1 },
   category: { 
-    type: String, 
-    enum: ["vegetable", "fruit", "protein", "grain", "dairy", "other"], 
+    type: String,
     default: "other" 
   },
   expiryDate: { type: Date, required: true }
