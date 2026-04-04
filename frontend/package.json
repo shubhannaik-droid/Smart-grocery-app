@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://Smart-grocery-app.vercel.app"
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
