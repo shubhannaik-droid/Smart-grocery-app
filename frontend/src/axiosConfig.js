@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000", // 🔹 replace this with YOUR PC IP
+  baseURL: "https://smart-grocery-app-slen.onrender.com/api",
 });
 
 export default instance;
